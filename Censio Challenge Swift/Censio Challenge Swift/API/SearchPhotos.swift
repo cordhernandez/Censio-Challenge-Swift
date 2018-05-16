@@ -53,7 +53,7 @@ class SearchPhotos: NSObject {
             callback(search)
         }
         catch {
-            debugPrint(error.localizedDescription)
+            debugPrint("Error decoding JSON: \(error.localizedDescription)")
         }
     }
 }
