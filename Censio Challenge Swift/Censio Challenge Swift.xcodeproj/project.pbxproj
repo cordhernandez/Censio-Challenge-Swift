@@ -10,6 +10,8 @@
 		32C61A8E20AC9FDA009771FF /* Censio_Challenge_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32C61A8420AC9FDA009771FF /* Censio_Challenge_Swift.framework */; };
 		32C61A9320AC9FDA009771FF /* Censio_Challenge_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C61A9220AC9FDA009771FF /* Censio_Challenge_SwiftTests.swift */; };
 		32C61A9520AC9FDA009771FF /* Censio_Challenge_Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 32C61A8720AC9FDA009771FF /* Censio_Challenge_Swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32C61AA020ACA7C4009771FF /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C61A9F20ACA7C4009771FF /* Search.swift */; };
+		32C61AA320ACAA9B009771FF /* SearchPhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C61AA220ACAA9B009771FF /* SearchPhotos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		32C61A8D20AC9FDA009771FF /* Censio Challenge SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Censio Challenge SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32C61A9220AC9FDA009771FF /* Censio_Challenge_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Censio_Challenge_SwiftTests.swift; sourceTree = "<group>"; };
 		32C61A9420AC9FDA009771FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32C61A9F20ACA7C4009771FF /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		32C61AA220ACAA9B009771FF /* SearchPhotos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPhotos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,7 @@
 		32C61A8620AC9FDA009771FF /* Censio Challenge Swift */ = {
 			isa = PBXGroup;
 			children = (
+				32C61AA120ACAA6B009771FF /* API */,
 				32C61A9E20ACA74B009771FF /* Models */,
 				32C61A8720AC9FDA009771FF /* Censio_Challenge_Swift.h */,
 				32C61A8820AC9FDA009771FF /* Info.plist */,
@@ -90,8 +95,17 @@
 		32C61A9E20ACA74B009771FF /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				32C61A9F20ACA7C4009771FF /* Search.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		32C61AA120ACAA6B009771FF /* API */ = {
+			isa = PBXGroup;
+			children = (
+				32C61AA220ACAA9B009771FF /* SearchPhotos.swift */,
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +170,7 @@
 				TargetAttributes = {
 					32C61A8320AC9FDA009771FF = {
 						CreatedOnToolsVersion = 9.3.1;
+						LastSwiftMigration = 0930;
 					};
 					32C61A8C20AC9FDA009771FF = {
 						CreatedOnToolsVersion = 9.3.1;
@@ -202,6 +217,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32C61AA320ACAA9B009771FF /* SearchPhotos.swift in Sources */,
+				32C61AA020ACA7C4009771FF /* Search.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +364,7 @@
 		32C61A9920AC9FDA009771FF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -364,6 +382,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "DeroHernandez.Censio-Challenge-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -372,6 +391,7 @@
 		32C61A9A20AC9FDA009771FF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -397,6 +417,7 @@
 		32C61A9C20AC9FDA009771FF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5E82HJH2N5;
 				INFOPLIST_FILE = "Censio Challenge SwiftTests/Info.plist";
@@ -415,6 +436,7 @@
 		32C61A9D20AC9FDA009771FF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5E82HJH2N5;
 				INFOPLIST_FILE = "Censio Challenge SwiftTests/Info.plist";
