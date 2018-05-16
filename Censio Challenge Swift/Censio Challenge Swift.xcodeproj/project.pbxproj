@@ -71,6 +71,7 @@
 		32C61A8620AC9FDA009771FF /* Censio Challenge Swift */ = {
 			isa = PBXGroup;
 			children = (
+				32C61A9E20ACA74B009771FF /* Models */,
 				32C61A8720AC9FDA009771FF /* Censio_Challenge_Swift.h */,
 				32C61A8820AC9FDA009771FF /* Info.plist */,
 			);
@@ -84,6 +85,13 @@
 				32C61A9420AC9FDA009771FF /* Info.plist */,
 			);
 			path = "Censio Challenge SwiftTests";
+			sourceTree = "<group>";
+		};
+		32C61A9E20ACA74B009771FF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
