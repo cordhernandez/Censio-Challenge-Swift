@@ -86,6 +86,7 @@
 		32C61A9120AC9FDA009771FF /* Censio Challenge SwiftTests */ = {
 			isa = PBXGroup;
 			children = (
+				32C61AA420ACBB98009771FF /* API Tests */,
 				32C61A9220AC9FDA009771FF /* Censio_Challenge_SwiftTests.swift */,
 				32C61A9420AC9FDA009771FF /* Info.plist */,
 			);
@@ -106,6 +107,13 @@
 				32C61AA220ACAA9B009771FF /* SearchPhotos.swift */,
 			);
 			path = API;
+			sourceTree = "<group>";
+		};
+		32C61AA420ACBB98009771FF /* API Tests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "API Tests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

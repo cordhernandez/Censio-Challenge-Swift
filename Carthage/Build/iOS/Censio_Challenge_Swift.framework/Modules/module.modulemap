@@ -1,0 +1,11 @@
+framework module Censio_Challenge_Swift {
+  umbrella header "Censio_Challenge_Swift.h"
+
+  export *
+  module * { export * }
+}
+
+module Censio_Challenge_Swift.Swift {
+    header "Censio_Challenge_Swift-Swift.h"
+    requires objc
+}
