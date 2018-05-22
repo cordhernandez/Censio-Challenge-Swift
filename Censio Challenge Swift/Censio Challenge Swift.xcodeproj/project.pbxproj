@@ -10,8 +10,13 @@
 		32C61A8E20AC9FDA009771FF /* Censio_Challenge_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32C61A8420AC9FDA009771FF /* Censio_Challenge_Swift.framework */; };
 		32C61A9320AC9FDA009771FF /* Censio_Challenge_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C61A9220AC9FDA009771FF /* Censio_Challenge_SwiftTests.swift */; };
 		32C61A9520AC9FDA009771FF /* Censio_Challenge_Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 32C61A8720AC9FDA009771FF /* Censio_Challenge_Swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		32C61AA020ACA7C4009771FF /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C61A9F20ACA7C4009771FF /* Search.swift */; };
+		32C61AA020ACA7C4009771FF /* SearchPhotosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C61A9F20ACA7C4009771FF /* SearchPhotosModel.swift */; };
 		32C61AA320ACAA9B009771FF /* SearchPhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C61AA220ACAA9B009771FF /* SearchPhotos.swift */; };
+		32C61AA620ACBC0E009771FF /* SearchPhotosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C61AA520ACBC0E009771FF /* SearchPhotosTests.swift */; };
+		32C61AA720ACBC21009771FF /* SearchPhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C61AA220ACAA9B009771FF /* SearchPhotos.swift */; };
+		32C61AA920ACC167009771FF /* SearchPhotosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C61A9F20ACA7C4009771FF /* SearchPhotosModel.swift */; };
+		32C61AAB20B409E2009771FF /* GetPhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C61AAA20B409E2009771FF /* GetPhotoModel.swift */; };
+		32C61AAC20B409E9009771FF /* GetPhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C61AAA20B409E2009771FF /* GetPhotoModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,8 +36,10 @@
 		32C61A8D20AC9FDA009771FF /* Censio Challenge SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Censio Challenge SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32C61A9220AC9FDA009771FF /* Censio_Challenge_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Censio_Challenge_SwiftTests.swift; sourceTree = "<group>"; };
 		32C61A9420AC9FDA009771FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		32C61A9F20ACA7C4009771FF /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		32C61A9F20ACA7C4009771FF /* SearchPhotosModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPhotosModel.swift; sourceTree = "<group>"; };
 		32C61AA220ACAA9B009771FF /* SearchPhotos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPhotos.swift; sourceTree = "<group>"; };
+		32C61AA520ACBC0E009771FF /* SearchPhotosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPhotosTests.swift; sourceTree = "<group>"; };
+		32C61AAA20B409E2009771FF /* GetPhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPhotoModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +103,8 @@
 		32C61A9E20ACA74B009771FF /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				32C61A9F20ACA7C4009771FF /* Search.swift */,
+				32C61A9F20ACA7C4009771FF /* SearchPhotosModel.swift */,
+				32C61AAA20B409E2009771FF /* GetPhotoModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -112,6 +120,7 @@
 		32C61AA420ACBB98009771FF /* API Tests */ = {
 			isa = PBXGroup;
 			children = (
+				32C61AA520ACBC0E009771FF /* SearchPhotosTests.swift */,
 			);
 			path = "API Tests";
 			sourceTree = "<group>";
@@ -225,8 +234,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32C61AAB20B409E2009771FF /* GetPhotoModel.swift in Sources */,
 				32C61AA320ACAA9B009771FF /* SearchPhotos.swift in Sources */,
-				32C61AA020ACA7C4009771FF /* Search.swift in Sources */,
+				32C61AA020ACA7C4009771FF /* SearchPhotosModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,7 +244,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32C61AAC20B409E9009771FF /* GetPhotoModel.swift in Sources */,
+				32C61AA620ACBC0E009771FF /* SearchPhotosTests.swift in Sources */,
+				32C61AA920ACC167009771FF /* SearchPhotosModel.swift in Sources */,
 				32C61A9320AC9FDA009771FF /* Censio_Challenge_SwiftTests.swift in Sources */,
+				32C61AA720ACBC21009771FF /* SearchPhotos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

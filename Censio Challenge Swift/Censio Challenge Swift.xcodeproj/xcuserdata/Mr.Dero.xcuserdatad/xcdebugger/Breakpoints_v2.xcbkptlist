@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Censio Challenge Swift/API/SearchPhotos.swift"
+            timestampString = "548670024.941277"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "getPhotosFrom(url:callback:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__ObjC.URLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static Censio_Challenge_SwiftTests.SearchPhotos.(getPhotosFrom in _F0C18AC734CB91558D2B26AF23E2E3EE)(url: Foundation.URL, callback: (Censio_Challenge_SwiftTests.Search) -&gt; ()) -&gt; ()"
+                  moduleName = "Censio Challenge SwiftTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Mr.Dero/Desktop/Desktop%20-%20Cordero%E2%80%99s%20MacBook%20Pro/Code%20Challenges/Censio%20Challenge%20Swift/Censio%20Challenge%20Swift/Censio%20Challenge%20Swift/API/SearchPhotos.swift"
+                  timestampString = "548669577.610642"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "53">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__ObjC.URLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static Censio_Challenge_Swift.SearchPhotos.(getPhotosFrom in _49344CB53AD14ACE9D2BC2BF6EB395D9)(url: Foundation.URL, callback: (Censio_Challenge_Swift.Search) -&gt; ()) -&gt; ()"
+                  moduleName = "Censio_Challenge_Swift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Mr.Dero/Desktop/Desktop%20-%20Cordero%E2%80%99s%20MacBook%20Pro/Code%20Challenges/Censio%20Challenge%20Swift/Censio%20Challenge%20Swift/Censio%20Challenge%20Swift/API/SearchPhotos.swift"
+                  timestampString = "548669577.664153"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "53">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Censio Challenge Swift/API/SearchPhotos.swift"
+            timestampString = "548670024.941381"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "getPhotosFrom(url:callback:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__ObjC.URLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static Censio_Challenge_SwiftTests.SearchPhotos.(getPhotosFrom in _F0C18AC734CB91558D2B26AF23E2E3EE)(url: Foundation.URL, callback: (Censio_Challenge_SwiftTests.Search) -&gt; ()) -&gt; ()"
+                  moduleName = "Censio Challenge SwiftTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Mr.Dero/Desktop/Desktop%20-%20Cordero%E2%80%99s%20MacBook%20Pro/Code%20Challenges/Censio%20Challenge%20Swift/Censio%20Challenge%20Swift/Censio%20Challenge%20Swift/API/SearchPhotos.swift"
+                  timestampString = "548669577.632023"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "904">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__ObjC.URLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static Censio_Challenge_Swift.SearchPhotos.(getPhotosFrom in _49344CB53AD14ACE9D2BC2BF6EB395D9)(url: Foundation.URL, callback: (Censio_Challenge_Swift.Search) -&gt; ()) -&gt; ()"
+                  moduleName = "Censio_Challenge_Swift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Mr.Dero/Desktop/Desktop%20-%20Cordero%E2%80%99s%20MacBook%20Pro/Code%20Challenges/Censio%20Challenge%20Swift/Censio%20Challenge%20Swift/Censio%20Challenge%20Swift/API/SearchPhotos.swift"
+                  timestampString = "548669577.66925"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "904">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Censio Challenge Swift/API/SearchPhotos.swift"
+            timestampString = "548670024.941469"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "parseJSON(from:callback:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Censio_Challenge_SwiftTests.SearchPhotos.(parseJSON in _F0C18AC734CB91558D2B26AF23E2E3EE)(from: Foundation.Data, callback: (Censio_Challenge_SwiftTests.Search) -&gt; ()) -&gt; ()"
+                  moduleName = "Censio Challenge SwiftTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Mr.Dero/Desktop/Desktop%20-%20Cordero%E2%80%99s%20MacBook%20Pro/Code%20Challenges/Censio%20Challenge%20Swift/Censio%20Challenge%20Swift/Censio%20Challenge%20Swift/API/SearchPhotos.swift"
+                  timestampString = "548669577.636637"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "110">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Censio_Challenge_Swift.SearchPhotos.(parseJSON in _49344CB53AD14ACE9D2BC2BF6EB395D9)(from: Foundation.Data, callback: (Censio_Challenge_Swift.Search) -&gt; ()) -&gt; ()"
+                  moduleName = "Censio_Challenge_Swift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Mr.Dero/Desktop/Desktop%20-%20Cordero%E2%80%99s%20MacBook%20Pro/Code%20Challenges/Censio%20Challenge%20Swift/Censio%20Challenge%20Swift/Censio%20Challenge%20Swift/API/SearchPhotos.swift"
+                  timestampString = "548669577.674551"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "110">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Censio Challenge Swift/API/SearchPhotos.swift"
+            timestampString = "548670024.941545"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "SearchPhotos"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Censio_Challenge_SwiftTests.SearchPhotos.__deallocating_deinit"
+                  moduleName = "Censio Challenge SwiftTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Mr.Dero/Desktop/Desktop%20-%20Cordero%E2%80%99s%20MacBook%20Pro/Code%20Challenges/Censio%20Challenge%20Swift/Censio%20Challenge%20Swift/Censio%20Challenge%20Swift/API/SearchPhotos.swift"
+                  timestampString = "548669577.641001"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Censio_Challenge_SwiftTests.SearchPhotos.__allocating_init() -&gt; Censio_Challenge_SwiftTests.SearchPhotos"
+                  moduleName = "Censio Challenge SwiftTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Mr.Dero/Desktop/Desktop%20-%20Cordero%E2%80%99s%20MacBook%20Pro/Code%20Challenges/Censio%20Challenge%20Swift/Censio%20Challenge%20Swift/Censio%20Challenge%20Swift/API/SearchPhotos.swift"
+                  timestampString = "548669577.644212"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Censio_Challenge_SwiftTests.SearchPhotos.init() -&gt; Censio_Challenge_SwiftTests.SearchPhotos"
+                  moduleName = "Censio Challenge SwiftTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Mr.Dero/Desktop/Desktop%20-%20Cordero%E2%80%99s%20MacBook%20Pro/Code%20Challenges/Censio%20Challenge%20Swift/Censio%20Challenge%20Swift/Censio%20Challenge%20Swift/API/SearchPhotos.swift"
+                  timestampString = "548669577.646631"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "63">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Censio_Challenge_Swift.SearchPhotos.__deallocating_deinit"
+                  moduleName = "Censio_Challenge_Swift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Mr.Dero/Desktop/Desktop%20-%20Cordero%E2%80%99s%20MacBook%20Pro/Code%20Challenges/Censio%20Challenge%20Swift/Censio%20Challenge%20Swift/Censio%20Challenge%20Swift/API/SearchPhotos.swift"
+                  timestampString = "548669577.680413"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Censio_Challenge_Swift.SearchPhotos.__allocating_init() -&gt; Censio_Challenge_Swift.SearchPhotos"
+                  moduleName = "Censio_Challenge_Swift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Mr.Dero/Desktop/Desktop%20-%20Cordero%E2%80%99s%20MacBook%20Pro/Code%20Challenges/Censio%20Challenge%20Swift/Censio%20Challenge%20Swift/Censio%20Challenge%20Swift/API/SearchPhotos.swift"
+                  timestampString = "548669577.685101"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Censio_Challenge_Swift.SearchPhotos.init() -&gt; Censio_Challenge_Swift.SearchPhotos"
+                  moduleName = "Censio_Challenge_Swift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Mr.Dero/Desktop/Desktop%20-%20Cordero%E2%80%99s%20MacBook%20Pro/Code%20Challenges/Censio%20Challenge%20Swift/Censio%20Challenge%20Swift/Censio%20Challenge%20Swift/API/SearchPhotos.swift"
+                  timestampString = "548669577.689814"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "63">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Censio Challenge Swift/API/SearchPhotos.swift"
+            timestampString = "548670024.94162"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "searchForPhotos(with:callback:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Censio_Challenge_SwiftTests.SearchPhotos.searchForPhotos(with: Swift.String, callback: (Censio_Challenge_SwiftTests.Search) -&gt; ()) -&gt; ()"
+                  moduleName = "Censio Challenge SwiftTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Mr.Dero/Desktop/Desktop%20-%20Cordero%E2%80%99s%20MacBook%20Pro/Code%20Challenges/Censio%20Challenge%20Swift/Censio%20Challenge%20Swift/Censio%20Challenge%20Swift/API/SearchPhotos.swift"
+                  timestampString = "548669577.650544"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "1081">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Censio_Challenge_Swift.SearchPhotos.searchForPhotos(with: Swift.String, callback: (Censio_Challenge_Swift.Search) -&gt; ()) -&gt; ()"
+                  moduleName = "Censio_Challenge_Swift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Mr.Dero/Desktop/Desktop%20-%20Cordero%E2%80%99s%20MacBook%20Pro/Code%20Challenges/Censio%20Challenge%20Swift/Censio%20Challenge%20Swift/Censio%20Challenge%20Swift/API/SearchPhotos.swift"
+                  timestampString = "548669577.694015"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "1081">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Censio Challenge SwiftTests/API Tests/SearchPhotosTests.swift"
+            timestampString = "548670024.941762"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "testSearchForPhotos()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Censio Challenge SwiftTests/API Tests/SearchPhotosTests.swift"
+            timestampString = "548670024.9421591"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "testSearchForPhotos()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
