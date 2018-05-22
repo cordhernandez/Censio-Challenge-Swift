@@ -51,8 +51,8 @@ class SearchPhotos: NSObject {
         do {
             
             let decoder = JSONDecoder()
-            let search = try decoder.decode(SearchPhotosModel.self, from: data)
-            callback(search)
+            let photosData = try decoder.decode(SearchPhotosModel.self, from: data)
+            callback(photosData)
         }
         catch {
             debugPrint("Error decoding JSON: \(error.localizedDescription)")
