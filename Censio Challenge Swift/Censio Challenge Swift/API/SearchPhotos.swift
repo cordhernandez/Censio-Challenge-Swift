@@ -10,10 +10,10 @@ import Foundation
 
 class SearchPhotos: NSObject {
     
-    var photosAPI: String?
-    typealias Callback = (Search) -> ()
+    static var photosAPI: String?
+    typealias Callback = (SearchPhotosModel) -> ()
     
-    open func searchForPhotos(with query: String, callback: @escaping Callback) {
+    open static func searchForPhotos(with query: String, callback: @escaping Callback) {
         
         photosAPI = "https://api.unsplash.com/search/photos?query=\(query)"
         guard let url = URL(string: photosAPI ?? "") else {
@@ -25,13 +25,13 @@ class SearchPhotos: NSObject {
         getPhotosFrom(url: url, callback: callback)
     }
     
-    func getPhotosFrom(url: URL, callback: @escaping Callback) {
+    private static func getPhotosFrom(url: URL, callback: @escaping Callback) {
         
         var request = URLRequest(url: url)
         request.setValue("Bearer 81b8b7cd36e4f6c1c5cc9aeffe6176885dae49e3810dd0e890eb790e6c566910", forHTTPHeaderField: "Authorization")
         
         let session = URLSession.shared
-        session.dataTask(with: request) { (data, response, error) in
+        let task = session.dataTask(with: request) { (data, response, error) in
             
             if error != nil {
                 
@@ -40,16 +40,18 @@ class SearchPhotos: NSObject {
             }
             
             guard let data = data else { return }
-            self.parseJSON(from: data, callback: callback)
+            self.decodeJSON(from: data, callback: callback)
         }
+        
+        task.resume()
     }
     
-    func parseJSON(from data: Data, callback: @escaping Callback) {
+    private static func decodeJSON(from data: Data, callback: @escaping Callback) {
         
         do {
             
             let decoder = JSONDecoder()
-            let search = try decoder.decode(Search.self, from: data)
+            let search = try decoder.decode(SearchPhotosModel.self, from: data)
             callback(search)
         }
         catch {
