@@ -52,7 +52,7 @@ class GetRandomPhoto: NSObject {
             
             let decoder = JSONDecoder()
             let photoData = try decoder.decode(GetRandomPhotoModel.self, from: data)
-            print("This is the data: \(photoData)")
+            
             callback(photoData)
         }
         catch {

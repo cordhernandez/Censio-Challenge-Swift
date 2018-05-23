@@ -52,6 +52,7 @@ class SearchPhotos: NSObject {
             
             let decoder = JSONDecoder()
             let photosData = try decoder.decode(SearchPhotosModel.self, from: data)
+            
             callback(photosData)
         }
         catch {
