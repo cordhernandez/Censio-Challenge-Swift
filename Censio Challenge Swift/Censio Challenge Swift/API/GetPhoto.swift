@@ -11,11 +11,11 @@ import Foundation
 class GetPhoto: NSObject {
     
     static var photoAPI: String?
-    typealias Callback = (GetPhotoModel) -> ()
+    typealias Callback = ([GetPhotoModel]) -> ()
     
-    open static func getPhoto(with id: String, callback: @escaping Callback) {
+    open static func getPhoto(withID id: String, callback: @escaping Callback) {
         
-        photoAPI = "https://api.unsplash.com/photos/:id?id=\(id)"
+        photoAPI = "https://api.unsplash.com/photos/?id=\(id)"
         guard let url = URL(string: photoAPI ?? "") else {
             
             debugPrint("Failed to get URL")
@@ -51,8 +51,8 @@ class GetPhoto: NSObject {
         do {
             
             let decoder = JSONDecoder()
-            let photoData = try decoder.decode(GetPhotoModel.self, from: data)
-            print("This is the data: \(photoData)")
+            let photoData = try decoder.decode([GetPhotoModel].self, from: data)
+            
             callback(photoData)
         }
         catch {
