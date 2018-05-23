@@ -12,7 +12,7 @@ struct SearchPhotosModel: Decodable {
     
     let total: Int?
     let total_pages: Int?
-    let results: [Results]
+    let results: [Results?]
 }
 
 
@@ -26,10 +26,10 @@ struct Results: Decodable {
     let likes: Int?
     let liked_by_user: Bool?
     let description: String?
-    let user: User
+    let user: User?
     let current_user_collections: [String?]
-    let urls: URLS
-    let links: Links
+    let urls: URLS?
+    let links: Links?
 }
 
 struct URLS: Decodable {
@@ -58,8 +58,8 @@ struct User: Decodable {
     let instagram_username: String?
     let twitter_username: String?
     let portfolio_url: String?
-    let profile_image: ProfileImage
-    let links: UserLinks
+    let profile_image: ProfileImage?
+    let links: UserLinks?
 }
 
 struct ProfileImage: Decodable {

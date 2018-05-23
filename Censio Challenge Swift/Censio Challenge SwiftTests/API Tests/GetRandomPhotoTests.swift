@@ -36,5 +36,4 @@ class GetRandomPhotoTests: XCTestCase {
         GetRandomPhoto.getRandomPhoto(with: query, callback: testCallback)
         waitForExpectations(timeout: 3.0, handler: nil)
     }
-    
 }

@@ -20,9 +20,9 @@ struct GetRandomPhotoModel: Decodable {
     let likes: Int?
     let liked_by_user: Bool?
     let description: String?
-    let exif: Exif
-    let location: Location
-    let current_user_collections: [CurrentUserCollections]
+    let exif: Exif?
+    let location: Location?
+    let current_user_collections: [CurrentUserCollections?]
 }
 
 struct Exif: Decodable {
@@ -39,7 +39,7 @@ struct Location: Decodable {
     
     let city: String?
     let country: String?
-    let position: Position
+    let position: Position?
 }
 
 struct Position: Decodable {
@@ -55,7 +55,7 @@ struct CurrentUserCollections: Decodable {
     let published_at: String?
     let updated_at: String?
     let curated: Bool?
-    let cover_photo: CoverPhoto
+    let cover_photo: CoverPhoto?
 }
 
 struct CoverPhoto: Decodable {
@@ -65,9 +65,9 @@ struct CoverPhoto: Decodable {
     let height: Int?
     let color: String?
     let likes: Int?
-    let liked_by_user: Bool
+    let liked_by_user: Bool?
     let description: String?
-    let user: CoverPhotoUser
+    let user: CoverPhotoUser?
 }
 
 struct CoverPhotoUser: Decodable {
