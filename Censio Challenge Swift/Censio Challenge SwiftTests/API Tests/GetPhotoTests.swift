@@ -26,15 +26,14 @@ class GetPhotoTest: XCTestCase {
         let id = "Sr7ez2HePQo"
         let promise = expectation(description: "Callback will be called")
         
-        let testCallback: (GetPhotoModel?) -> Void = { photo in
+        let testCallback: ([GetPhotoModel]) -> Void = { photo in
             
-            if photo != nil {
+            if !photo.isEmpty {
                 promise.fulfill()
             }
         }
         
-        GetPhoto.getPhoto(with: id, callback: testCallback)
+        GetPhoto.getPhoto(withID: id, callback: testCallback)
         waitForExpectations(timeout: 3.0, handler: nil)
     }
-    
 }
