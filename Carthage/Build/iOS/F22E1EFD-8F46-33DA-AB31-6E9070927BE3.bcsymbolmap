@@ -1,0 +1,61 @@
+BCSymbolMap Version: 2.0
+__T0SqWe
+__T022Censio_Challenge_Swift12SearchPhotosCfD
+__T022Censio_Challenge_Swift12SearchPhotosCfETo
+__T022Censio_Challenge_Swift12SearchPhotosCACycfc
+__T022Censio_Challenge_Swift12SearchPhotosCACycfcTo
+__T022Censio_Challenge_Swift12SearchPhotosCMa
+_swift_rt_swift_getInitializedObjCClass
+_swift_rt_swift_slowAlloc
+_swift_rt_swift_slowDealloc
+_OBJC_METACLASS_$__TtC22Censio_Challenge_Swift12SearchPhotos
+__T022Censio_Challenge_Swift12SearchPhotosC9photosAPISSSgvpWvd
+__T022Censio_Challenge_Swift12SearchPhotosCMn
+__T022Censio_Challenge_Swift12SearchPhotosCML
+__T022Censio_Challenge_Swift12SearchPhotosCMf
+__T022Censio_Challenge_Swift12SearchPhotosCMF
+__swift_FORCE_LOAD_$_swiftUIKit_$_Censio_Challenge_Swift
+__swift_FORCE_LOAD_$_swiftFoundation_$_Censio_Challenge_Swift
+__swift_FORCE_LOAD_$_swiftObjectiveC_$_Censio_Challenge_Swift
+__swift_FORCE_LOAD_$_swiftDarwin_$_Censio_Challenge_Swift
+__swift_FORCE_LOAD_$_swiftCoreFoundation_$_Censio_Challenge_Swift
+__swift_FORCE_LOAD_$_swiftDispatch_$_Censio_Challenge_Swift
+__swift_FORCE_LOAD_$_swiftCoreGraphics_$_Censio_Challenge_Swift
+__swift_FORCE_LOAD_$_swiftCoreImage_$_Censio_Challenge_Swift
+__swift_FORCE_LOAD_$_swiftMetal_$_Censio_Challenge_Swift
+__swift_FORCE_LOAD_$_swiftQuartzCore_$_Censio_Challenge_Swift
+__T0SSSgML
+___swift_reflection_version
+_objc_classes
+__T022Censio_Challenge_Swift12SearchPhotosCN
+_OBJC_CLASS_$__TtC22Censio_Challenge_Swift12SearchPhotos
+Apple LLVM version 9.1.0 (clang-902.0.37.1)
+-emit-bc "/Users/Mr.Dero/Desktop/Desktop - Cordero’s MacBook Pro/Code Challenges/Censio Challenge Swift/Censio Challenge Swift/Censio Challenge Swift/API/SearchPhotos.swift" "/Users/Mr.Dero/Desktop/Desktop - Cordero’s MacBook Pro/Code Challenges/Censio Challenge Swift/Censio Challenge Swift/Censio Challenge Swift/Models/Search.swift" -target arm64-apple-ios11.3 -Xllvm -aarch64-use-tbi -enable-objc-interop -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk -I "/Users/Mr.Dero/Library/Developer/Xcode/DerivedData/Censio_Challenge_Swift-flrttdtqzxvvnsfhrbaoiawmskdy/Build/Intermediates.noindex/ArchiveIntermediates/Censio Challenge Swift/BuildProductsPath/Release-iphoneos" -F "/Users/Mr.Dero/Library/Developer/Xcode/DerivedData/Censio_Challenge_Swift-flrttdtqzxvvnsfhrbaoiawmskdy/Build/Intermediates.noindex/ArchiveIntermediates/Censio Challenge Swift/BuildProductsPath/Release-iphoneos" -g -import-underlying-module -module-cache-path /Users/Mr.Dero/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -swift-version 4 -O -serialize-debugging-options -Xcc "-I/Users/Mr.Dero/Library/Developer/Xcode/DerivedData/Censio_Challenge_Swift-flrttdtqzxvvnsfhrbaoiawmskdy/Build/Intermediates.noindex/ArchiveIntermediates/Censio Challenge Swift/IntermediateBuildFilesPath/Censio Challenge Swift.build/Release-iphoneos/Censio Challenge Swift.build/swift-overrides.hmap" -Xcc -iquote -Xcc "/Users/Mr.Dero/Library/Developer/Xcode/DerivedData/Censio_Challenge_Swift-flrttdtqzxvvnsfhrbaoiawmskdy/Build/Intermediates.noindex/ArchiveIntermediates/Censio Challenge Swift/IntermediateBuildFilesPath/Censio Challenge Swift.build/Release-iphoneos/Censio Challenge Swift.build/Censio_Challenge_Swift-generated-files.hmap" -Xcc "-I/Users/Mr.Dero/Library/Developer/Xcode/DerivedData/Censio_Challenge_Swift-flrttdtqzxvvnsfhrbaoiawmskdy/Build/Intermediates.noindex/ArchiveIntermediates/Censio Challenge Swift/IntermediateBuildFilesPath/Censio Challenge Swift.build/Release-iphoneos/Censio Challenge Swift.build/Censio_Challenge_Swift-own-target-headers.hmap" -Xcc "-I/Users/Mr.Dero/Library/Developer/Xcode/DerivedData/Censio_Challenge_Swift-flrttdtqzxvvnsfhrbaoiawmskdy/Build/Intermediates.noindex/ArchiveIntermediates/Censio Challenge Swift/IntermediateBuildFilesPath/Censio Challenge Swift.build/Release-iphoneos/Censio Challenge Swift.build/Censio_Challenge_Swift-all-non-framework-target-headers.hmap" -Xcc -ivfsoverlay -Xcc "/Users/Mr.Dero/Library/Developer/Xcode/DerivedData/Censio_Challenge_Swift-flrttdtqzxvvnsfhrbaoiawmskdy/Build/Intermediates.noindex/ArchiveIntermediates/Censio Challenge Swift/IntermediateBuildFilesPath/Censio Challenge Swift.build/all-product-headers.yaml" -Xcc -iquote -Xcc "/Users/Mr.Dero/Library/Developer/Xcode/DerivedData/Censio_Challenge_Swift-flrttdtqzxvvnsfhrbaoiawmskdy/Build/Intermediates.noindex/ArchiveIntermediates/Censio Challenge Swift/IntermediateBuildFilesPath/Censio Challenge Swift.build/Release-iphoneos/Censio Challenge Swift.build/Censio_Challenge_Swift-project-headers.hmap" -Xcc "-I/Users/Mr.Dero/Library/Developer/Xcode/DerivedData/Censio_Challenge_Swift-flrttdtqzxvvnsfhrbaoiawmskdy/Build/Intermediates.noindex/ArchiveIntermediates/Censio Challenge Swift/BuildProductsPath/Release-iphoneos/include" -Xcc "-I/Users/Mr.Dero/Library/Developer/Xcode/DerivedData/Censio_Challenge_Swift-flrttdtqzxvvnsfhrbaoiawmskdy/Build/Intermediates.noindex/ArchiveIntermediates/Censio Challenge Swift/IntermediateBuildFilesPath/Censio Challenge Swift.build/Release-iphoneos/Censio Challenge Swift.build/DerivedSources/arm64" -Xcc "-I/Users/Mr.Dero/Library/Developer/Xcode/DerivedData/Censio_Challenge_Swift-flrttdtqzxvvnsfhrbaoiawmskdy/Build/Intermediates.noindex/ArchiveIntermediates/Censio Challenge Swift/IntermediateBuildFilesPath/Censio Challenge Swift.build/Release-iphoneos/Censio Challenge Swift.build/DerivedSources" -Xcc -ivfsoverlay -Xcc "/Users/Mr.Dero/Library/Developer/Xcode/DerivedData/Censio_Challenge_Swift-flrttdtqzxvvnsfhrbaoiawmskdy/Build/Intermediates.noindex/ArchiveIntermediates/Censio Challenge Swift/IntermediateBuildFilesPath/Censio Challenge Swift.build/Release-iphoneos/Censio Challenge Swift.build/unextended-module-overlay.yaml" -Xcc "-working-directory/Users/Mr.Dero/Desktop/Desktop - Cordero’s MacBook Pro/Code Challenges/Censio Challenge Swift/Censio Challenge Swift" -emit-module-doc-path "/Users/Mr.Dero/Library/Developer/Xcode/DerivedData/Censio_Challenge_Swift-flrttdtqzxvvnsfhrbaoiawmskdy/Build/Intermediates.noindex/ArchiveIntermediates/Censio Challenge Swift/IntermediateBuildFilesPath/Censio Challenge Swift.build/Release-iphoneos/Censio Challenge Swift.build/Objects-normal/arm64/Censio_Challenge_Swift.swiftdoc" -serialize-diagnostics-path "/Users/Mr.Dero/Library/Developer/Xcode/DerivedData/Censio_Challenge_Swift-flrttdtqzxvvnsfhrbaoiawmskdy/Build/Intermediates.noindex/ArchiveIntermediates/Censio Challenge Swift/IntermediateBuildFilesPath/Censio Challenge Swift.build/Release-iphoneos/Censio Challenge Swift.build/Objects-normal/arm64/SearchPhotos.dia" -module-name Censio_Challenge_Swift -emit-module-path "/Users/Mr.Dero/Library/Developer/Xcode/DerivedData/Censio_Challenge_Swift-flrttdtqzxvvnsfhrbaoiawmskdy/Build/Intermediates.noindex/ArchiveIntermediates/Censio Challenge Swift/IntermediateBuildFilesPath/Censio Challenge Swift.build/Release-iphoneos/Censio Challenge Swift.build/Objects-normal/arm64/Censio_Challenge_Swift.swiftmodule" -emit-objc-header-path "/Users/Mr.Dero/Library/Developer/Xcode/DerivedData/Censio_Challenge_Swift-flrttdtqzxvvnsfhrbaoiawmskdy/Build/Intermediates.noindex/ArchiveIntermediates/Censio Challenge Swift/IntermediateBuildFilesPath/Censio Challenge Swift.build/Release-iphoneos/Censio Challenge Swift.build/Objects-normal/arm64/Censio_Challenge_Swift-Swift.h" -emit-dependencies-path "/Users/Mr.Dero/Library/Developer/Xcode/DerivedData/Censio_Challenge_Swift-flrttdtqzxvvnsfhrbaoiawmskdy/Build/Intermediates.noindex/ArchiveIntermediates/Censio Challenge Swift/IntermediateBuildFilesPath/Censio Challenge Swift.build/Release-iphoneos/Censio Challenge Swift.build/Objects-normal/arm64/SearchPhotos.d" -num-threads 8 -o "/Users/Mr.Dero/Library/Developer/Xcode/DerivedData/Censio_Challenge_Swift-flrttdtqzxvvnsfhrbaoiawmskdy/Build/Intermediates.noindex/ArchiveIntermediates/Censio Challenge Swift/IntermediateBuildFilesPath/Censio Challenge Swift.build/Release-iphoneos/Censio Challenge Swift.build/Objects-normal/arm64/SearchPhotos.bc" -o "/Users/Mr.Dero/Library/Developer/Xcode/DerivedData/Censio_Challenge_Swift-flrttdtqzxvvnsfhrbaoiawmskdy/Build/Intermediates.noindex/ArchiveIntermediates/Censio Challenge Swift/IntermediateBuildFilesPath/Censio Challenge Swift.build/Release-iphoneos/Censio Challenge Swift.build/Objects-normal/arm64/Search.bc" -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift
+<swift-imported-modules>
+/Users/Mr.Dero/Desktop/Desktop - Cordero’s MacBook Pro/Code Challenges/Censio Challenge Swift/Censio Challenge Swift
+Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)
+/Users/Mr.Dero/Desktop/Desktop - Cordero’s MacBook Pro/Code Challenges/Censio Challenge Swift/Censio Challenge Swift/Censio Challenge Swift/API/SearchPhotos.swift
+_T022Censio_Challenge_Swift12SearchPhotosCMa
+SearchPhotos.swift
+/Users/Mr.Dero/Desktop/Desktop - Cordero’s MacBook Pro/Code Challenges/Censio Challenge Swift/Censio Challenge Swift/Censio Challenge Swift/API
+get_field_types_SearchPhotos
+_T0SSSgMa
+init
+deinit
+__T022Censio_Challenge_Swift6SearchV10CodingKeys33_D1B233C35AB8751EE2305B9E826EB7A3LLOMF
+__T022Censio_Challenge_Swift6SearchVMF
+__T022Censio_Challenge_Swift7ResultsV10CodingKeys33_D1B233C35AB8751EE2305B9E826EB7A3LLOMF
+__T022Censio_Challenge_Swift7ResultsVMF
+__T022Censio_Challenge_Swift4URLSV10CodingKeys33_D1B233C35AB8751EE2305B9E826EB7A3LLOMF
+__T022Censio_Challenge_Swift4URLSVMF
+__T022Censio_Challenge_Swift5LinksV10CodingKeys33_D1B233C35AB8751EE2305B9E826EB7A3LLOMF
+__T022Censio_Challenge_Swift5LinksVMF
+__T022Censio_Challenge_Swift4UserV10CodingKeys33_D1B233C35AB8751EE2305B9E826EB7A3LLOMF
+__T022Censio_Challenge_Swift4UserVMF
+__T022Censio_Challenge_Swift12ProfileImageV10CodingKeys33_D1B233C35AB8751EE2305B9E826EB7A3LLOMF
+__T022Censio_Challenge_Swift12ProfileImageVMF
+__T022Censio_Challenge_Swift9UserLinksV10CodingKeys33_D1B233C35AB8751EE2305B9E826EB7A3LLOMF
+__T022Censio_Challenge_Swift9UserLinksVMF
+/Users/Mr.Dero/Desktop/Desktop - Cordero’s MacBook Pro/Code Challenges/Censio Challenge Swift/Censio Challenge Swift/Censio Challenge Swift/Models/Search.swift
+Apple LLVM version 9.1.0 (clang-902.0.39.1)
+/Users/Mr.Dero/Library/Developer/Xcode/DerivedData/Censio_Challenge_Swift-flrttdtqzxvvnsfhrbaoiawmskdy/Build/Intermediates.noindex/ArchiveIntermediates/Censio Challenge Swift/IntermediateBuildFilesPath/Censio Challenge Swift.build/Release-iphoneos/Censio Challenge Swift.build/DerivedSources/Censio_Challenge_Swift_vers.c

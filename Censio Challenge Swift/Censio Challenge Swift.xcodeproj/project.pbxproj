@@ -8,8 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		32C61A8E20AC9FDA009771FF /* Censio_Challenge_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32C61A8420AC9FDA009771FF /* Censio_Challenge_Swift.framework */; };
-		32C61A9320AC9FDA009771FF /* Censio_Challenge_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C61A9220AC9FDA009771FF /* Censio_Challenge_SwiftTests.swift */; };
 		32C61A9520AC9FDA009771FF /* Censio_Challenge_Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 32C61A8720AC9FDA009771FF /* Censio_Challenge_Swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32C61AA020ACA7C4009771FF /* SearchPhotosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C61A9F20ACA7C4009771FF /* SearchPhotosModel.swift */; };
+		32C61AA320ACAA9B009771FF /* SearchPhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C61AA220ACAA9B009771FF /* SearchPhotos.swift */; };
+		32C61AA620ACBC0E009771FF /* SearchPhotosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C61AA520ACBC0E009771FF /* SearchPhotosTests.swift */; };
+		32C61AA720ACBC21009771FF /* SearchPhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C61AA220ACAA9B009771FF /* SearchPhotos.swift */; };
+		32C61AA920ACC167009771FF /* SearchPhotosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C61A9F20ACA7C4009771FF /* SearchPhotosModel.swift */; };
+		32C61AAB20B409E2009771FF /* GetPhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C61AAA20B409E2009771FF /* GetPhotoModel.swift */; };
+		32C61AAC20B409E9009771FF /* GetPhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C61AAA20B409E2009771FF /* GetPhotoModel.swift */; };
+		32C61AAE20B4BC1E009771FF /* GetPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C61AAD20B4BC1E009771FF /* GetPhoto.swift */; };
+		32C61AAF20B4BC1E009771FF /* GetPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C61AAD20B4BC1E009771FF /* GetPhoto.swift */; };
+		32C61AB420B4BFEF009771FF /* GetPhotoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C61AB320B4BFEF009771FF /* GetPhotoTests.swift */; };
+		32C61AB620B4C948009771FF /* GetRandomPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C61AB520B4C948009771FF /* GetRandomPhoto.swift */; };
+		32C61AB720B4C948009771FF /* GetRandomPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C61AB520B4C948009771FF /* GetRandomPhoto.swift */; };
+		32C61AB920B4CAAF009771FF /* GetRandomPhotoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C61AB820B4CAAF009771FF /* GetRandomPhotoTests.swift */; };
+		32C61ABB20B4CC47009771FF /* GetRandomPhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C61ABA20B4CC47009771FF /* GetRandomPhotoModel.swift */; };
+		32C61ABC20B4CC47009771FF /* GetRandomPhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C61ABA20B4CC47009771FF /* GetRandomPhotoModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,8 +41,16 @@
 		32C61A8720AC9FDA009771FF /* Censio_Challenge_Swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Censio_Challenge_Swift.h; sourceTree = "<group>"; };
 		32C61A8820AC9FDA009771FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32C61A8D20AC9FDA009771FF /* Censio Challenge SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Censio Challenge SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		32C61A9220AC9FDA009771FF /* Censio_Challenge_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Censio_Challenge_SwiftTests.swift; sourceTree = "<group>"; };
 		32C61A9420AC9FDA009771FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32C61A9F20ACA7C4009771FF /* SearchPhotosModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPhotosModel.swift; sourceTree = "<group>"; };
+		32C61AA220ACAA9B009771FF /* SearchPhotos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPhotos.swift; sourceTree = "<group>"; };
+		32C61AA520ACBC0E009771FF /* SearchPhotosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPhotosTests.swift; sourceTree = "<group>"; };
+		32C61AAA20B409E2009771FF /* GetPhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPhotoModel.swift; sourceTree = "<group>"; };
+		32C61AAD20B4BC1E009771FF /* GetPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPhoto.swift; sourceTree = "<group>"; };
+		32C61AB320B4BFEF009771FF /* GetPhotoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPhotoTests.swift; sourceTree = "<group>"; };
+		32C61AB520B4C948009771FF /* GetRandomPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetRandomPhoto.swift; sourceTree = "<group>"; };
+		32C61AB820B4CAAF009771FF /* GetRandomPhotoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetRandomPhotoTests.swift; sourceTree = "<group>"; };
+		32C61ABA20B4CC47009771FF /* GetRandomPhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetRandomPhotoModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +93,7 @@
 		32C61A8620AC9FDA009771FF /* Censio Challenge Swift */ = {
 			isa = PBXGroup;
 			children = (
+				32C61AA120ACAA6B009771FF /* API */,
 				32C61A9E20ACA74B009771FF /* Models */,
 				32C61A8720AC9FDA009771FF /* Censio_Challenge_Swift.h */,
 				32C61A8820AC9FDA009771FF /* Info.plist */,
@@ -81,7 +104,7 @@
 		32C61A9120AC9FDA009771FF /* Censio Challenge SwiftTests */ = {
 			isa = PBXGroup;
 			children = (
-				32C61A9220AC9FDA009771FF /* Censio_Challenge_SwiftTests.swift */,
+				32C61AA420ACBB98009771FF /* API Tests */,
 				32C61A9420AC9FDA009771FF /* Info.plist */,
 			);
 			path = "Censio Challenge SwiftTests";
@@ -90,8 +113,31 @@
 		32C61A9E20ACA74B009771FF /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				32C61A9F20ACA7C4009771FF /* SearchPhotosModel.swift */,
+				32C61AAA20B409E2009771FF /* GetPhotoModel.swift */,
+				32C61ABA20B4CC47009771FF /* GetRandomPhotoModel.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		32C61AA120ACAA6B009771FF /* API */ = {
+			isa = PBXGroup;
+			children = (
+				32C61AA220ACAA9B009771FF /* SearchPhotos.swift */,
+				32C61AAD20B4BC1E009771FF /* GetPhoto.swift */,
+				32C61AB520B4C948009771FF /* GetRandomPhoto.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		32C61AA420ACBB98009771FF /* API Tests */ = {
+			isa = PBXGroup;
+			children = (
+				32C61AA520ACBC0E009771FF /* SearchPhotosTests.swift */,
+				32C61AB320B4BFEF009771FF /* GetPhotoTests.swift */,
+				32C61AB820B4CAAF009771FF /* GetRandomPhotoTests.swift */,
+			);
+			path = "API Tests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +202,7 @@
 				TargetAttributes = {
 					32C61A8320AC9FDA009771FF = {
 						CreatedOnToolsVersion = 9.3.1;
+						LastSwiftMigration = 0930;
 					};
 					32C61A8C20AC9FDA009771FF = {
 						CreatedOnToolsVersion = 9.3.1;
@@ -202,6 +249,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32C61AAB20B409E2009771FF /* GetPhotoModel.swift in Sources */,
+				32C61AA320ACAA9B009771FF /* SearchPhotos.swift in Sources */,
+				32C61AB620B4C948009771FF /* GetRandomPhoto.swift in Sources */,
+				32C61AA020ACA7C4009771FF /* SearchPhotosModel.swift in Sources */,
+				32C61ABB20B4CC47009771FF /* GetRandomPhotoModel.swift in Sources */,
+				32C61AAE20B4BC1E009771FF /* GetPhoto.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,7 +262,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32C61A9320AC9FDA009771FF /* Censio_Challenge_SwiftTests.swift in Sources */,
+				32C61AB720B4C948009771FF /* GetRandomPhoto.swift in Sources */,
+				32C61AAC20B409E9009771FF /* GetPhotoModel.swift in Sources */,
+				32C61AB920B4CAAF009771FF /* GetRandomPhotoTests.swift in Sources */,
+				32C61AA620ACBC0E009771FF /* SearchPhotosTests.swift in Sources */,
+				32C61AA920ACC167009771FF /* SearchPhotosModel.swift in Sources */,
+				32C61AA720ACBC21009771FF /* SearchPhotos.swift in Sources */,
+				32C61AAF20B4BC1E009771FF /* GetPhoto.swift in Sources */,
+				32C61ABC20B4CC47009771FF /* GetRandomPhotoModel.swift in Sources */,
+				32C61AB420B4BFEF009771FF /* GetPhotoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +408,7 @@
 		32C61A9920AC9FDA009771FF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -364,6 +426,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "DeroHernandez.Censio-Challenge-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -372,6 +435,7 @@
 		32C61A9A20AC9FDA009771FF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -397,6 +461,7 @@
 		32C61A9C20AC9FDA009771FF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5E82HJH2N5;
 				INFOPLIST_FILE = "Censio Challenge SwiftTests/Info.plist";
@@ -415,6 +480,7 @@
 		32C61A9D20AC9FDA009771FF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5E82HJH2N5;
 				INFOPLIST_FILE = "Censio Challenge SwiftTests/Info.plist";

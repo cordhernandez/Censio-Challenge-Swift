@@ -1,5 +1,5 @@
 //
-//  Censio_Challenge_SwiftTests.swift
+//  SearchPhotosTests.swift
 //  Censio Challenge SwiftTests
 //
 //  Created by Cordero Hernandez on 5/16/18.
@@ -9,9 +9,9 @@
 import XCTest
 @testable import Censio_Challenge_Swift
 
-class Censio_Challenge_SwiftTests: XCTestCase {
+class SearchPhotosTests: XCTestCase {
     
-    override func setUp() {
+     override func setUp() {
         super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
@@ -21,16 +21,20 @@ class Censio_Challenge_SwiftTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    func testSearchForPhotos() {
+        
+        let query = "dogs"
+        let promise = expectation(description: "Callback will be called")
+        
+        let testCallback: (SearchPhotosModel?) -> Void = { photos in
+            
+            if photos != nil {
+                promise.fulfill()
+            }
         }
+        
+        SearchPhotos.searchForPhotos(with: query, callback: testCallback)
+        waitForExpectations(timeout: 3.0, handler: nil)
     }
     
 }
